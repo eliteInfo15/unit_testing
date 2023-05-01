@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --inspect index.js",
-    "test": "c8 --reporter=json-summary mocha"
+    "test": "c8 mocha"
   },
   "type":"module",
   "keywords": [],
